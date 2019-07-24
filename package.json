@@ -1,0 +1,22 @@
+{
+  "name": "william-0-lim.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/william-0-lim/william-0-lim.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/william-0-lim/william-0-lim.github.io/issues"
+  },
+  "homepage": "https://github.com/william-0-lim/william-0-lim.github.io#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
