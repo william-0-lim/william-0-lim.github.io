@@ -29,6 +29,10 @@ app.get('/experience', function(req, res){
 	res.sendFile(__dirname + '/experience.html');
 });
 
+app.get('/a1', function(req, res){
+	res.sendFile(__dirname + '/a1.html');
+});
+
 app.listen(port, function(){
 	console.log("Listening on port " + port);
 });

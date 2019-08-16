@@ -22,3 +22,36 @@ html,body {
   position: absolute;
   z-index: -1000;
 }
+
+.bg1 {
+  background-image: url(../css/pic2.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1000;
+}
+
+.bg2 {
+  background-image: url(../css/black.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: repeat-y;
+  background-size: cover;
+  position: absolute;
+  z-index: -1000;
+}
+
+.bg3 {
+  background-image: url(../css/school.jpg);
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  z-index: -1000;
+}
