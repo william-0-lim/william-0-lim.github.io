@@ -12,16 +12,17 @@ html,body {
   background-color: green;
 }
 
-.bg {
-  background-image: url(../css/pic1.jpg);
+/* .bg {
+  background-image: url(../css/vancouver.jpg);
   height: 100%;
   width: 100%;
+  object-fit: fill;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
   z-index: -1000;
-}
+} */
 
 .bg1 {
   background-image: url(../css/pic2.jpg);
