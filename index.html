@@ -4,12 +4,13 @@
     <meta charset="utf-8">
     <title>Personal Website</title>
     <link rel="stylesheet" href="/css/style.scss">
+    <link rel="stylesheet" href="/css/stylesheet.css">
     <link rel="stylesheet" href="/css/frontpagestyle.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <div class="bg">
-      <!-- Inspired by: https://codepen.io/natewiley/pen/Ciwyn -->
+    <!-- <div class="body1">
       <div id="particle-container">
         <div class="particle"></div>
         <div class="particle"></div>
@@ -42,50 +43,109 @@
         <div class="particle"></div>
         <div class="particle"></div>
       </div>
+      <div class="bg"></div>
+        <strong class="text-center" style="color:black; font-size:50px;">Hello, I'm</strong>
+         <br>
+        <strong class="text-center" style="font-family:cursive; color:black; font-size:50px;">William Lim</strong>
+        <img class="fit-picture" src="../css/ProfilePhoto.png" float="left">
+          <br>
+          <br>
+        <i style="color:black"></i>
+         <br>
+        <i style="color:black"></i>
+         <br>
+        <i style="color:black"></i>
+    </div> -->
+    <div class="body">
+      <section class="secText">
+          <p>A little bit about my myself:</p>
+          <p> I believe being genuine and nurturing, along with professional and driven, 
+            is an essential combination for people in my field. My abilities extend to problem-solving and critical thinking with proficiency in teamwork. 
+            Working with people from diverse backgrounds has provided me with a deep understanding and awareness of differences in both individuals and organizations.</p>
+      </section>
+      <section class="intro"></section>
+      <section class="projects">
+        <p class="projectTag" style="text-align:center; color:white; font-size:100px">PROJECTS</p>
+      </section>
+        <section class="secText">
+            <h1>Pandemic Pal</h1>
+              <h6>ICBC Software Engineering Project</h6>
+              <h6>Jan 2021 - May 2021</h6>
+               <div class="box">
+                 <li>Developed a system that allows staff to choose where they work on any given day (ie: home office, various ICBC locations) as well as provide support mechanisms to support this new work arrangement.</li>
+                 <li>Full stack development using React/Redux and Node.js for front-end and C# for backend.</li>
+                 <li>Updated SQL files to reflect the data base design model the team decided upon.</li>
+                 <li>As the project manager, led weekly meetings with TA and presentations to sponsors during midterm and final for project progress as well as the final delivery.</li>
+                 <li>Performend manual testing to ensure functionality of features and deliverables.</li>
+              </div>
+            <h1>UBC Insight Project</h1>
+              <h6>Academic Project [Javascript/Typescript]</h6>
+              <h6>Jan 2020 - May 2020</h6>
+              <div class="box">
+                <li>Processed given datafile in JSON/XML and stored in an intermediate format on disk for quicker access in Node.js.</li>
+                <li>Performed a query by returning a set of data requested by user; otherwise, the error code is returned.</li>
+                <li>Practiced optimization of code and refactoring for reusability and code readability while working as a pair.</li>
+              </div>
+            <h1>Poke Simulator</h1>
+              <h6>Academic Project [Prolog]</h6>
+              <h6>Jan 2019 - May 2019</h6>
+                <div class="box">
+                  <li>Developed a simplified Pokemon game using the language Haskell.</li>
+                  <li>The single-player features will consist of battling against AI's of matching difficulty.</li>
+                  <li>Practiced optimization of code and refactoring for reusability and code readability while working in a group of 3.</li>
+                  <li>As the project manager, led weekly meetings with TA and presentations for project progress and final delivery.</li>
+                  <li>Performed manual testing to ensure functionality of features and deliverables.</li>
+                </div>
+            <h1>Buses Are Us</h1>
+              <h6>Academic Project [Java]</h6>
+              <h6>Sep 2018 - Dec 2018</h6>
+                <div class="box">
+                  <li>Used a mapping API that maps the location uf user, stops and bus routes on the Greater Vancouver Transit System.</li>
+                  <li>Required a use of Open API to retrieve real time arrival information.</li>
+                  <li>Performed unit test using Junit and implemented JSON parser.</li>
+                  <li>Used a singleton design pattern to ensure only a single instance managing stops and routes.</li>
+                </div>
+            <h1>Shinobi VS Robot</h1>
+              <h6>Academic Project [Javascript, HTML]</h6>
+              <h6>Dec 2017 - Jan 2018</h6>
+                <div class="box">
+                  <li>Worked in a group of Two.</li>
+                  <li>Developed an interactive flash game written in JavaScript which required understanding of event listeners.</li>
+                </div>
+        </section>
+      <section class="workExperience">
+        <p class="experienceTag" style="text-align:center; color:white; font-size:100px">WORK EXPERIENCE</p>
+      </section>
+        <section class="secText">
+          <h1>TD Canada Trust</h1>
+          <h6>CEA/PBA</h6>
+          <h6>April 2019 - Present</h6>
+            <div class="box">
+              <li>Balanced daily cash deposits and withdrawals and bank vault inventory without any errors. Processed cash withdrawls.</li>
+              <li>Researched and resolved any customer issues on their personal savings, checking, and lines of credit accounts.</li>
+              <li>Handled customers with great customer service and delivered prompt, accurate transactions.</li>
+              <li>Studied and memorized banking guidelines and statutory requirements to stay updated on new laws and applications.</li>
+            </div>
+          <h1>Blenz Coffee</h1>
+          <h6>Barista and Manager</h6>
+          <h6>May 2015 - May 2019</h6>
+            <div class="box">
+              <li>Handles and receives food order and verifies the order.</li>
+              <li>In charge of handling tip money and making sure the store is operable.</li>
+              <li>Greets and informs customers of speical promotions or nutritional information under requests.</li>
+            </div>
+        </section> 
+      <section class="aboutMe">
+        <p class="meTag" style="text-align:center; color:white; font-size:100px">ABOUT ME</p> 
+      </section>
+        <section class="secText">
+            <p>A little bit about my myself:</p>
+            <p> I believe being genuine and nurturing, along with professional and driven, 
+              is an essential combination for people in my field. My abilities extend to problem-solving and critical thinking with proficiency in teamwork. 
+              Working with people from diverse backgrounds has provided me with a deep understanding and awareness of differences in both individuals and organizations.</p>
+        </section>
     </div>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-11 mx-auto py-3 text-right">
-            <div style="color:black">
-              <a href="/me">About me</a>
-              |
-              <a href="/projects">Personal Project</a>
-              |
-              <a href="/projects2">Academic Project</a>
-              |
-              <a href="/experience">Work Experience</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="center">
-        <!-- <div class="col-md-12 text-center"> -->
-          <div class="p-12">
-            <!-- <img src="dadandi.jpg" width="100%" height="auto"> -->
-            <strong class="text-center" style="color:black; font-size:50px;">TaeGyun (William) Lim</strong>
-            <hr size="6" width="50%" align="center" color="black">
-            <i style="color:black">University of British Columbia: Computer Science</i>
-            <br>
-            <i style="color:black">Email: taegyunlim3@gmail.com</i>
-            <br>
-            <i style="color:black">Phone Number: 778-926-3826</i>
-          </div>
-        </div>
-        <!-- <div class="col-6 text-center container">
-          <div class="row">
-            <div id= "nav1" class="col-11 mt-5 text-left">
-              hello
-            </div>
-          </div>
-          <div class="row">
-            <div id= "nav1" class="col-11 mt-1 text-left">
-              world
-            </div>
-          </div>
-        </div> -->
-      </div>
-
+    
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>

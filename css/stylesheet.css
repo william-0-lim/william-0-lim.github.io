@@ -1,58 +1,138 @@
-html,body {
+.body {
   margin: 0;
-  padding: 0;
-  height: 100%;
+  font-family: sans-serif;
 }
 
-#nav {
-  background-color: blue;
+.padding {
+  margin-top: 2rem;
 }
 
-#nav1 {
-  background-color: green;
+.container {
+  max-width: 2000px;
+  margin: 0 auto;
+  background: #f9f9f9;
+  font-size: 24px;
+  padding: 15px;
 }
 
-/* .bg {
-  background-image: url(../css/vancouver.jpg);
-  height: 100%;
-  width: 100%;
-  object-fit: fill;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  z-index: -1000;
+/* .rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #D3D3D3;
+  padding: 20px;
+  width: 1000px;
+  height: 150px;
 } */
 
-.bg1 {
-  background-image: url(../css/pic2.jpg);
-  height: 100%;
-  width: 100%;
-  background-position: center;
+.box {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 21px;
+  /* line-height: 1.42857143; */
+  color: #333;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.body1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: left;
+}
+
+.projectTag {
+  z-index: 2;
+  position: relative;
+  top: 150px; 
+  opacity: 0.9;
+}
+
+.experienceTag {
+  z-index: 2;
+  position: relative;
+  top: 230px; 
+  opacity: 0.9;
+}
+
+.meTag {
+  z-index: 2;
+  position: relative;
+  top: 200px; 
+  opacity: 0.9;
+}
+
+.bg {
+  background-image: url(../css/ProfilePhoto.jpg);
+  width:100%;
+  height:550px;
+  object-fit:cover;
+  object-position:50% 50%;
+  /* height: 50%;
+  width: 50%;
+  object-fit: fill;
+  background-position: right;
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  z-index: -1000;
+  z-index: -1000; */
 }
 
-.bg2 {
-  background-image: url(../css/black.jpg);
-  height: 100%;
+section {
   width: 100%;
-  background-position: center;
-  background-repeat: repeat-y;
-  background-size: cover;
-  position: absolute;
-  z-index: -1000;
+  height: 620px;
+  box-sizing: border-box;
 }
 
-.bg3 {
-  background-image: url(../css/school.jpg);
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
+section.projects {
+  padding: 100px 35px;
+  background: url('../css/vancouver.jpg');
   background-size: cover;
-  position: absolute;
-  z-index: -1000;
+  background-position: center center;
+  background-attachment: fixed;
 }
+
+section.workExperience {
+  background: url('../css/ScienceBuilding.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+section.aboutMe {
+  background: url('../css/pic1.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+section.intro {
+  background: url('../css/pic2.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+section.secText {
+  padding: 50px 100px;
+  height: auto;
+}
+
+section.secText h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  color: #262626;
+}
+
+section.secText p {
+  font-size: 15px;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
+section.secText li {
+  font-size: 15px;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+}
+
