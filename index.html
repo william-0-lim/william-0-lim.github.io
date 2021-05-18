@@ -3,65 +3,21 @@
   <head>
     <meta charset="utf-8">
     <title>Personal Website</title>
-    <link rel="stylesheet" href="/css/style.scss">
     <link rel="stylesheet" href="/css/stylesheet.css">
-    <link rel="stylesheet" href="/css/frontpagestyle.css">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   </head>
   <body>
-    <!-- <div class="body1">
-      <div id="particle-container">
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-        <div class="particle"></div>
-      </div>
-      <div class="bg"></div>
-        <strong class="text-center" style="color:black; font-size:50px;">Hello, I'm</strong>
-         <br>
-        <strong class="text-center" style="font-family:cursive; color:black; font-size:50px;">William Lim</strong>
-        <img class="fit-picture" src="../css/ProfilePhoto.png" float="left">
-          <br>
-          <br>
-        <i style="color:black"></i>
-         <br>
-        <i style="color:black"></i>
-         <br>
-        <i style="color:black"></i>
-    </div> -->
     <div class="body">
-      <section class="secText">
-          <p>A little bit about my myself:</p>
-          <p> I believe being genuine and nurturing, along with professional and driven, 
-            is an essential combination for people in my field. My abilities extend to problem-solving and critical thinking with proficiency in teamwork. 
-            Working with people from diverse backgrounds has provided me with a deep understanding and awareness of differences in both individuals and organizations.</p>
+      <section class="landingPage">
+        <video src="../css/Intro.mp4" playsinline autoplay muted loop></video>
+        <div class="overlay"></div>
+        <div class="introText">
+          <h1>Hi, I'm William.</h1>
+          <p>Junior Software Developer</p>
+          <p>University of British Columbia: B.SC. in Computer Science</p>
+          <p1>“Copy-and-Paste was programmed by programmers for programmers actually.”</p1>
+        </div>
       </section>
       <section class="intro"></section>
       <section class="projects">
@@ -140,15 +96,33 @@
       </section>
         <section class="secText">
             <p>A little bit about my myself:</p>
-            <p> I believe being genuine and nurturing, along with professional and driven, 
+            <p>I believe being genuine and nurturing, along with professional and driven, 
               is an essential combination for people in my field. My abilities extend to problem-solving and critical thinking with proficiency in teamwork. 
-              Working with people from diverse backgrounds has provided me with a deep understanding and awareness of differences in both individuals and organizations.</p>
+              Working with people from diverse backgrounds has provided me with a deep understanding and awareness of differences in both individuals and organizations.
+              I am also very hard-working who can create and support new or improved products from research through development as well as someone with a positive
+              attitude and an adaptable, creative mindset. Also, I do have a passion for clean and beautiful code with an eye for simplicity and pragmatism.
+              I also happen to love Football with a passion and loves to go outdoors for hikes and camping. :)
+            </p>
         </section>
+        <section class="soccer"></section>
+        <section class="hike1"></section>
+        <section class="hike2"></section>
+        <section class="van"></section>
+        <div class="endFooter">
+          <div class="endContainer">Updated as of May 2021.</div>
+        </div>
     </div>
     
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script>  
+      window.onbeforeunload = function () {
+          window.scrollTo(0, 0);
+      }; 
+    </script>
+
   </body>
 </html>
