@@ -99,31 +99,24 @@ section.soccer {
   background-attachment: fixed;
 }
 
-section.hike1 {
-  background: url('../css/hike.JPG');
+/* section.hike1 {
+  background: url('../css/hd2.JPG');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
   image-rendering: pixelated
-}
+} */
 
 section.hike2 {
-  background: url('../css/hike2.JPG');
+  background: url('../css/hd1.JPG');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
 }
 
 section.van {
-  background: url('../css/camp.JPG');
+  background: url('../css/hd.JPG');
   background-size: cover;
-  background-position: center center;
-  background-attachment: fixed;
-}
-
-section.van {
-  background: url('../css/camp1.JPG');
-  background-size: auto;
   background-position: center center;
   background-attachment: fixed;
 }
