@@ -62,12 +62,12 @@ section {
 }
 
 section.projects {
-  padding: 100px 35px;
+  /* padding: 100px 35px; */
   background: url('../css/vancouver.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 section.workExperience {
@@ -85,7 +85,7 @@ section.aboutMe {
 }
 
 section.intro {
-  background: url('../css/black.jpg');
+  background: url('../css/van1.jpg');
   background-size: cover;
   background-position: center center;
   background-attachment: fixed;
@@ -158,7 +158,7 @@ section.secText li {
 }
 
 .landingPage {
-  position: absolute;
+  position: relative;
   right: 0;
   width: 100%;
   min-height: 100vh;
