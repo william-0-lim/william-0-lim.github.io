@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/william-0-lim/william-0-lim.github.io#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "react-scripts": "^4.0.3"
   }
 }
