@@ -1,5 +1,110 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
+  <style>
+  .card {
+    width: 800px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    box-sizing: border-box;
+    margin: 20px auto;
+    text-align: left;
+  }
+
+  .header-custom {
+    font-size: 22px;
+    font-weight: bold;
+  }
+
+  .card p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .card a {
+    color: blue;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .card-date {
+    font-size: 14px;
+    color: gray;
+  }
+
+  .card-languages {
+    font-size: 14px;
+    color: gray;
+  }
+
+  .cardsPage {
+  position: relative;
+  min-height: 3200px;
+  overflow: hidden;
+  }
+
+  .workSection {
+  position: relative;
+  min-height: 1500px;
+  overflow: hidden;
+  }
+
+  .card-group {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  align-items: center;
+  z-index: 1;
+  height: auto; 
+  }
+
+.workSection video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  z-index: 0;
+  }
+.card-group {
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  align-items: center;
+  z-index: 1;
+  height: auto; 
+  }
+
+.cardsPage video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  z-index: 0;
+  }
+
+  </style>
+
   <head>
     <meta charset="utf-8">
     <title>Personal Website</title>
@@ -20,110 +125,239 @@
           <p1>“Copy-and-Paste was programmed by programmers for programmers actually.”</p1>
         </div>
       </section>
-      <section class="intro"></section>
-      <section class="projects">
-        <p class="projectTag" style="text-align:center; color:white; font-size:100px">PROJECTS</p>
-      </section>
-        <section class="secText">
-          <h1>Personal Website</h1>
-          <h6>Personal Project [HTML/CSS]</h6>
-          <h6>April 2021 - May 2021</h6>
-          <a href="https://github.com/william-0-lim/william-0-lim.github.io.git" target="_blank">Link To GitHub</a>
-           <div class="box">
-             <li>Created a fully-functioning website </li>
-             <li>Created a parallax effect to make the website more pleasing to the eyes.</li>
-             <li>Used only HTML andd CSS to create the website.</li>
-          </div>
-            <h1>Pandemic Pal</h1>
-              <h6>ICBC Software Engineering Project</h6>
-              <h6>Jan 2021 - May 2021</h6>
-               <div class="box">
-                 <li>Developed a system that allows staff to choose where they work on any given day (ie: home office, various ICBC locations) as well as provide support mechanisms to support this new work arrangement.</li>
-                 <li>Full stack development using React/Redux and Node.js for front-end and C# for backend.</li>
-                 <li>Updated SQL files to reflect the data base design model the team decided upon.</li>
-                 <li>As the project manager, led weekly meetings with TA and presentations to sponsors during midterm and final for project progress as well as the final delivery.</li>
-                 <li>Performend manual testing to ensure functionality of features and deliverables.</li>
-              </div>
-            <h1>UBC Insight Project</h1>
-              <h6>Academic Project [Javascript/Typescript]</h6>
-              <h6>Jan 2020 - May 2020</h6>
-              <a href="https://github.com/william-0-lim/UBC-Insight-Project.git" target="_blank">Link To Github</a>
-              <div class="box">
-                <li>Processed given datafile in JSON/XML and stored in an intermediate format on disk for quicker access in Node.js.</li>
-                <li>Performed a query by returning a set of data requested by user; otherwise, the error code is returned.</li>
-                <li>Practiced optimization of code and refactoring for reusability and code readability while working as a pair.</li>
-              </div>
-            <h1>Poke Simulator</h1>
-              <h6>Academic Project [Prolog]</h6>
-              <h6>Jan 2019 - May 2019</h6>
-              <a href="https://github.com/william-0-lim/Poke-Simulator-.git" target="_blank">Link To GitHub</a>
-                <div class="box">
-                  <li>Developed a simplified Pokemon game using the language Prolog.</li>
-                  <li>The single-player features will consist of battling against AI's of matching difficulty.</li>
-                  <li>Practiced optimization of code and refactoring for reusability and code readability while working in a group of 3.</li>
-                  <li>As the project manager, led weekly meetings with TA and presentations for project progress and final delivery.</li>
-                  <li>Performed manual testing to ensure functionality of features and deliverables.</li>
-                </div>
-            <h1>Stranger Strings Games</h1>
-                <h6>Academic Project [Haskell]</h6>
-                <h6>Jan 2019 - May 2019</h6>
-                <a href="https://github.com/william-0-lim/StrangerString-Games.git" target="_blank">Link To GitHub</a>
-                  <div class="box">
-                    <li>Developed a simplified Stranger Things theme interactive adventure game using the language Haskell.</li>
-                    <li>We created layers of levels where in each layer our main character plays a mini-game to move onto the next round.</li>
-                    <li>We implemented multiple scenarios where the player will encounter different situations depending on the outcome of the previous round.</li>
-                    <li>We also designed multiple endings so that depending on the outcome of rounds, the ending will be different.</li>
-                    <li>Performed manual testing to ensure functionality of features and deliverables.</li>
-                </div>
-            <h1>Buses Are Us</h1>
-              <h6>Academic Project [Java]</h6>
-              <h6>Sep 2018 - Dec 2018</h6>
-                <div class="box">
-                  <li>Used a mapping API that maps the location uf user, stops and bus routes on the Greater Vancouver Transit System.</li>
-                  <li>Required a use of Open API to retrieve real time arrival information.</li>
-                  <li>Performed unit test using Junit and implemented JSON parser.</li>
-                  <li>Used a singleton design pattern to ensure only a single instance managing stops and routes.</li>
-                </div>
-            <h1>Shinobi VS Robot</h1>
-              <h6>Academic Project [Javascript, HTML]</h6>
-              <h6>Dec 2017 - Jan 2018</h6>
-                <div class="box">
-                  <li>Worked in a group of Two.</li>
-                  <li>Developed an interactive flash game written in JavaScript which required understanding of event listeners.</li>
-                </div>
-        </section>
+      <section class="intro"></section>      
+        <!-- <section class="secText" style="background: linear-gradient(to bottom, 
+                                                        rgba(0,0,255,1) 0%, 
+                                                        rgba(0,255,255,1) 20%, 
+                                                        rgba(0,255,0,1) 40%, 
+                                                        rgba(255,255,0,1) 60%, 
+                                                        rgba(255,0,0,1) 100%)"> -->
       <section class="workExperience">
         <p class="experienceTag" style="text-align:center; color:white; font-size:100px">WORK EXPERIENCE</p>
       </section>
-        <section class="secText">
-          <h1>SAP</h1>
-          <h6>iXp Intern - Developer, Security Engineering</h6>
-          <h6>September 2021 - April 2022</h6>
-            <div class="box">
-              <li>Develop and maintain existing in-house automation landscape.</li>
-              <li>Test case development for existing and new features.</li>
-              <li>Develop full stack from backend storage, business logics to JavaScript-based UI.</li>          
-              <li>Coordinate testing, integration and documentation of solutions.</li>
-              <li>Provide operational support and new technologies investigations.</li>
+
+      <section class="workSection">
+        <video src="../css/ferris.mp4" playsinline autoplay muted loop></video>
+        <div>
+          <div class="card-group" style="flex-direction: column; align-items: center; ">
+            <div style="padding-bottom: 10px; padding-top: 10px;">
+              <div class="card">
+                <div class="card-header">
+                  <div class="header-custom">SAP Canada</div>
+                  <div class="card-date">June 2022 - Present</div>
+                </div>
+                  <div class="card-body" >
+                    <li>Works in a team of 5 for a project used to track security compliance of SAP's software products across jurisdictions reducing
+                      compliance exercise duration by more than 60%.</li>
+                    <li>Re-wrote the front-end applications in Angular from scratch improving responsiveness by 40% by reducing network calls by
+                      almost 50%.</li>
+                    <li>Helped the team with pioneering a new back-end application in Spring Boot and introduced in-memory cache with GraphQL for
+                      quicker read ops by more than 30% improvement.</li>
+                  </div>
+                <p class="card-languages">Postion: Developer, Security Engineering</p>
+                <p class="card-languages">Stack: React, Angular, Spring Boot, Typescript/Javascript</p>
+              </div>
+          </div>
+          <div class="card-group" style="flex-direction: column; align-items: center; ">
+            <div style="padding-bottom: 10px; padding-top: 10px;">
+              <div class="card">
+                <div class="card-header">
+                  <div class="header-custom">SAP Canada</div>
+                  <div class="card-date">September 2021 - June 2022</div>
+                </div>
+                  <div class="card-body" >
+                    <li>Test case development for existing and new features in React frontend.</li>
+                    <li>Coordinated testing, integration and documentation of solutions.</li>
+                    <li>Provide operational support and new technologies investigations.</li>
+                  </div>
+                <p class="card-languages">Postion: iXp Intern - Software Developer </p>
+                <p class="card-languages">Stack: React, Angular, Javascript</p>
+              </div>
+          </div>
+          <div class="card-group" style="flex-direction: column; align-items: center; ">
+            <div style="padding-bottom: 10px; padding-top: 10px;">
+              <div class="card">
+                <div class="card-header">
+                  <div class="header-custom">TD Canada Trust</div>
+                  <div class="card-date">April 2019 - July 2021</div>
+                </div>
+                  <div class="card-body" >
+                    <li>Balanced daily cash deposits and withdrawals and bank vault inventory without any errors. Processed cash withdrawls.</li>
+                    <li>Researched and resolved any customer issues on their personal savings, checking, and lines of credit accounts.</li>
+                    <li>Handled customers with great customer service and delivered prompt, accurate transactions.</li>
+                    <li>Studied and memorized banking guidelines and statutory requirements to stay updated on new laws and applications.</li>
+                  </div>
+                <p class="card-languages">CEA/PBA </p>
+              </div>
+          </div>
+          <div class="card-group" style="flex-direction: column; align-items: center; ">
+            <div style="padding-bottom: 10px; padding-top: 10px;">
+              <div class="card">
+                <div class="card-header">
+                  <div class="header-custom">Blenz Coffee</div>
+                  <div class="card-date">May 2015 - May 2019</div>
+                </div>
+                  <div class="card-body" >
+                    <li>Handles and receives food order and verifies the order.</li>
+                    <li>In charge of handling tip money and making sure the store is operable.</li>
+                    <li>Greets and informs customers of speical promotions or nutritional information under requests.</li>
+                  </div>
+                <p class="card-languages">Barista and Manager</p>
+              </div>
+          </div>
+      </section> 
+
+      <section class="projects">
+        <p class="projectTag" style="text-align:center; color:white; font-size:100px">PROJECTS</p>
+      </section>
+      
+      <section class="cardsPage">
+        <video src="../css/cloud.mp4" playsinline autoplay muted loop></video>
+        <div>
+          <div class="card-group" style="flex-direction: column; align-items: center; ">
+            <div style="padding-bottom: 10px; padding-top: 10px;">
+              <div class="card">
+                <div class="card-header">
+                  <div class="header-custom">To Do Application</div>
+                  <div class="card-date">February 2023 - Present</div>
+                </div>
+                  <div class="card-body" >
+                      <li>Developed a full-stack to-do application using the MERN stack.</li>
+                      <li>Built a RESTful API with Express.js to handle CRUD operations for tasks and manage data persistence with MongoDB.</li>
+                      <li>Utilized React to create a dynamic and user-friendly front-end, allowing users to add,edit, and mark tasks as complete.</li>
+                      <li>Used Node.js to handle server-side logic and integration with the database.</li>
+                  </div>
+                <p class="card-languages">Stack: React, Express/Node.js, MongoDB</p>
+                <a href="https://github.com/william-0-lim/To-Do-App.git" target="_blank">Link to GitHub</a>
+              </div>
+          </div>
+    
+            <div class="card-group" style="display: flex; flex-direction: column; align-items: center;">
+              <div style="padding-bottom: 10px; padding-top: 10px;">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="header-custom">Personal Website</div>
+                    <div class="card-date">April 2021 - May 2021</div>
+                  </div>
+                    <div class="card-body" >
+                        <li>Designed and developed a responsive website using HTML, CSS, and JavaScript.</li>
+                        <li>Implemented a clean and modern design, with a focus on user experience and accessibility.</li>
+                        <li>Utilized CSS Grid and Flexbox to create flexible and responsive layouts, ensuring compatibility across a range of devices.</li>
+                        <li>Used Parallax effect to ensure a cohesive look and feel throughout the site.</li>
+                    </div>
+                  <p class="card-languages">Stack: HTML/CSS</p>
+                  <a href="https://github.com/william-0-lim/william-0-lim.github.io.git" target="_blank">Link To GitHub</a>
+              </div>
             </div>
-          <h1>TD Canada Trust</h1>
-          <h6>CEA/PBA</h6>
-          <h6>April 2019 - July 2021</h6>
-            <div class="box">
-              <li>Balanced daily cash deposits and withdrawals and bank vault inventory without any errors. Processed cash withdrawls.</li>
-              <li>Researched and resolved any customer issues on their personal savings, checking, and lines of credit accounts.</li>
-              <li>Handled customers with great customer service and delivered prompt, accurate transactions.</li>
-              <li>Studied and memorized banking guidelines and statutory requirements to stay updated on new laws and applications.</li>
+  
+            <div class="card-group" style="display: flex; flex-direction: column; align-items: center;">
+              <div style="padding-bottom: 10px; padding-top: 10px;">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="header-custom">Pandemic Pal</div>
+                    <div class="card-date">January 2021 - May 2021</div>
+                  </div>
+                    <div class="card-body" >
+                        <li>Software Engineering Proejct for ICBC to improve workers to make a booking for the office to use.</li>
+                        <li>Developed a system that allows staff to choose where they work on any given day (ie: home office, various ICBC locations) as well as provide support mechanisms to support this new work arrangement</li>
+                        <li>Full stack development using React/Redux and Node.js for front-end and Springboot for backend.</li>
+                        <li>Updated SQL files to reflect the data base design model the team decided upon.</li>
+                        <li>As the project manager, led weekly meetings with TA and presentations to sponsors during midterm and final for project progress as well as the final delivery.</li>
+                        <li>Performend manual testing to ensure functionality of features and deliverables.</li>
+                    </div>
+                  <p class="card-languages">Stack: React/Redux, Node.js, SpringBoot</p>
+              </div>
             </div>
-          <h1>Blenz Coffee</h1>
-          <h6>Barista and Manager</h6>
-          <h6>May 2015 - May 2019</h6>
-            <div class="box">
-              <li>Handles and receives food order and verifies the order.</li>
-              <li>In charge of handling tip money and making sure the store is operable.</li>
-              <li>Greets and informs customers of speical promotions or nutritional information under requests.</li>
+            
+            <div class="card-group" style="display: flex; flex-direction: column; align-items: center;">
+              <div style="padding-bottom: 10px; padding-top: 10px;">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="header-custom">UBC Insight Project</div>
+                    <div class="card-date">January 2020 - May 2020</div>
+                  </div>
+                    <div class="card-body" >
+                        <li>Processed given datafile in JSON/XML and stored in an intermediate format on disk for quicker access in Node.js.</li>
+                        <li>Performed a query by returning a set of data requested by user; otherwise, the error code is returned.</li>
+                        <li>Practiced optimization of code and refactoring for reusability and code readability while working as a pair.</li>
+                    </div>
+                  <p class="card-languages">Stack: JavaScript, Typescript</p>
+                  <a href="https://github.com/william-0-lim/UBC-Insight-Project.git" target="_blank">Link To Github</a>
+              </div>
             </div>
-        </section> 
+  
+            <div class="card-group" style="display: flex; flex-direction: column; align-items: center;">
+              <div style="padding-bottom: 10px; padding-top: 10px;">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="header-custom">Poke Simulator</div>
+                    <div class="card-date">January 2019 - May 2019</div>
+                  </div>
+                    <div class="card-body" >
+                        <li>Developed a simplified Pokemon game using the language Prolog.</li>
+                        <li>The single-player features will consist of battling against AI's of matching difficulty.</li>
+                        <li>Practiced optimization of code and refactoring for reusability and code readability while working in a group of 3.</li>
+                        <li>As the project manager, led weekly meetings with TA and presentations for project progress and final delivery.</li>
+                        <li>Performed manual testing to ensure functionality of features and deliverables.</li>
+                      </div>
+                  <p class="card-languages">Stack: Prolog</p>
+                  <a href="https://github.com/william-0-lim/Poke-Simulator-.git" target="_blank">Link To GitHub</a>
+              </div>
+            </div>
+  
+            <div class="card-group" style="display: flex; flex-direction: column; align-items: center;">
+              <div style="padding-bottom: 10px; padding-top: 10px;">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="header-custom">Stranger Strings Games</div>
+                    <div class="card-date">January 2019 - May 2019</div>
+                  </div>
+                    <div class="card-body" >
+                      <li>Developed a simplified Stranger Things theme interactive adventure game using the language Haskell.</li>
+                      <li>We created layers of levels where in each layer our main character plays a mini-game to move onto the next round.</li>
+                      <li>We implemented multiple scenarios where the player will encounter different situations depending on the outcome of the previous round.</li>
+                      <li>We also designed multiple endings so that depending on the outcome of rounds, the ending will be different.</li>
+                      <li>Performed manual testing to ensure functionality of features and deliverables.</li>
+                      </div>
+                  <p class="card-languages">Stack: Haskell</p>
+                  <a href="https://github.com/william-0-lim/StrangerString-Games.git" target="_blank">Link To GitHub</a>
+              </div>
+            </div>
+  
+            <div class="card-group" style="display: flex; flex-direction: column; align-items: center;">
+              <div style="padding-bottom: 10px; padding-top: 10px;">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="header-custom">Buses Are Us</div>
+                    <div class="card-date">September 2018 - December 2018</div>
+                  </div>
+                    <div class="card-body" >
+                      <li>Used a mapping API that maps the location uf user, stops and bus routes on the Greater Vancouver Transit System.</li>
+                      <li>Required a use of Open API to retrieve real time arrival information.</li>
+                      <li>Performed unit test using Junit and implemented JSON parser.</li>
+                      <li>Used a singleton design pattern to ensure only a single instance managing stops and routes.</li>
+                      </div>
+                  <p class="card-languages">Stack: Java</p>
+              </div>
+            </div>
+  
+            <div class="card-group" style="display: flex; flex-direction: column; align-items: center;">
+              <div style="padding-bottom: 10px; padding-top: 10px;">
+                <div class="card">
+                  <div class="card-header">
+                    <div class="header-custom">Shinobi vs Robot</div>
+                    <div class="card-date">December 2017 - January 2018</div>
+                  </div>
+                    <div class="card-body" >
+                      <li>Worked in a group of Two.</li>
+                      <li>Developed an interactive flash game written in JavaScript which required understanding of event listeners.</li>
+                      </div>
+                  <p class="card-languages">Stack: Javascript, HTML</p>
+              </div>
+            </div>
+        </div>
+      </section>
+
       <section class="aboutMe">
         <p class="meTag" style="text-align:center; color:white; font-size:100px">ABOUT ME</p> 
       </section>
@@ -142,7 +376,7 @@
         <section class="van"></section>
         <div class="endFooter">
           <div class="endContainer">
-            Updated as of May 2021. 
+            Updated as of Feb 2023. 
             <a href="https://www.linkedin.com/in/william-lim-a233bb211/" class="fa fa-linkedin" target="_blank"></a>
           </div>
         </div>
